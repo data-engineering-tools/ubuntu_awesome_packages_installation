@@ -42,7 +42,7 @@ To run the installation script, you can use the following command:
 
 ---
 ```bash
-curl -sSL "https://raw.githubusercontent.com/data-burst/ubuntu_awesome_packages_installation/installation.sh" | bash -s -- --local --user <USER> [--set-dns <DNS_IP>] --tags <TAGS>
+curl -sSL "https://raw.githubusercontent.com/data-burst/ubuntu_awesome_packages_installation/master/installation.sh" | bash -s -- --local --user <USER> [--set-dns <DNS_IP>] --tags <TAGS>
 ```
 ---
 
