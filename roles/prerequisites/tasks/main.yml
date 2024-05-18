@@ -1,14 +1,13 @@
 ---
-- include_tasks: required-packages.yml
+- block:
+    - include_tasks: required-packages.yml
+    - include_tasks: create-user.yml
   tags:
-      - shell
-      - devops
-      - desktop
-- include_tasks: create-user.yml
+    - shell
+    - devops
+    - desktop
+
+- block:
+    - include_tasks: python-stuffs.yml
   tags:
-      - shell
-      - devops
-      - desktop
-- include_tasks: python-stuffs.yml
-  tags:
-      - shell
+    - shell
