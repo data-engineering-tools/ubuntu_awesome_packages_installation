@@ -12,5 +12,5 @@
 
 - name: Ensure nvim.appimage is not running
   command: pkill -f nvim.appimage
-  ignore_errors: yes
+  ignore_errors: true
   failed_when: false

@@ -1,40 +1,17 @@
 ---
-- include_tasks: zsh.yml
-  tags:
-    - shell
-- include_tasks: oh-my-zsh.yml
-  tags:
-    - shell
-- include_tasks: autojump.yml
-  tags:
-    - shell
-- include_tasks: alacritty.yml
-  tags:
-    - shell
-- include_tasks: byobu.yml
-  tags:
-    - shell
-- include_tasks: fuck.yml
-  tags:
-    - shell
-- include_tasks: fd-find.yml
-  tags:
-    - shell
-- include_tasks: fuzzy-finder.yml
-  tags:
-    - shell
-- include_tasks: nvim.yml
-  tags:
-    - shell
-- include_tasks: vim.yml
-  tags:
-    - shell
-- include_tasks: xclip.yml
-  tags:
-    - shell
-- include_tasks: zsh-autosuggestion.yml
-  tags:
-    - shell
-- include_tasks: terminator.yml
+- block:
+    - include_tasks: zsh.yml
+    - include_tasks: oh-my-zsh.yml
+    - include_tasks: autojump.yml
+    - include_tasks: alacritty.yml
+    - include_tasks: byobu.yml
+    - include_tasks: fuck.yml
+    - include_tasks: fd-find.yml
+    - include_tasks: fuzzy-finder.yml
+    - include_tasks: nvim.yml
+    - include_tasks: vim.yml
+    - include_tasks: xclip.yml
+    - include_tasks: zsh-autosuggestion.yml
+    - include_tasks: terminator.yml
   tags:
     - shell
